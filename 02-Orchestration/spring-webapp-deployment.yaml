@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-webapp-deployment
+  labels:
+    app: spring-webapp
+    type: frontend
+spec:
+  template:
+      metadata:
+        name: spring-webapp-pod
+        labels:
+          app: spring-webapp
+          type: frontend
+      spec:
+        containers:
+        - name: spring-webapp
+          image: ioannisgk/java-spring-webapp:v1.0
+  replicas: 5
+  selector:
+    matchLabels:
+      type: frontend
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spring-webapp-service
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+  selector:
+    app: spring-webapp
