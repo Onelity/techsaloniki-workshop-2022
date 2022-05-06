@@ -6,9 +6,9 @@ In the past most companies used to develop big monolithic applications. Just in 
 
 ## project requirements
 
-1. Install Java SE JDK 11 x64: [official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) verify with `java-version`
+1. Install Java SE JDK 11 x64: [official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) verify with `java -version`
 
-2. Install Maven by following [this guide](https://mkyong.com/maven/how-to-install-maven-in-windows/) verify with `mvn-version`
+2. Install Maven by following [this guide](https://mkyong.com/maven/how-to-install-maven-in-windows/) verify with `mvn -version`
 
 3. Install Docker Desktop on Windows: [official documentation](https://docs.docker.com/desktop/windows/install/) verify with `docker run hello-world`
 
