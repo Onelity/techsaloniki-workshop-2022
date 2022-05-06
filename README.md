@@ -68,6 +68,8 @@ $ docker push ioannisgk/java-spring-webapp:v1.0
 $ docker push ioannisgk/java-spring-webapp:v2.0
 $ docker logout
 
+###############################################
+
 $ docker ps -a
 $ docker system prune -a
 $ docker image list
