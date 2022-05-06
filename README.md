@@ -104,7 +104,7 @@ $ kubectl get pods -n spring-webapp
 
 # Zero downtime with rolling updates
 $ kubectl get pods -n spring-webapp --watch
-$ kubectl edit deploy spring-webapp-deployment -n spring-webapp
+$ kubectl edit deploy spring-webapp-deployment -n spring-webapp # you can uodate the image tag
 $ kubectl get pods -n spring-webapp
 $ kubectl port-forward service/spring-webapp-service 80:8080 -n spring-webapp
 
