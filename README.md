@@ -99,7 +99,7 @@ $ kubectl port-forward service/spring-webapp-service 80:8080 -n spring-webapp
 
 # Self-healing pods
 $ kubectl get pods -n spring-webapp --watch
-$ kubectl delete pod spring-webapp-pod-01 -n spring-webapp
+$ kubectl delete pod spring-webapp-pod-01 -n spring-webapp # make sure to put the full pod name
 $ kubectl get pods -n spring-webapp
 
 # Zero downtime with rolling updates
