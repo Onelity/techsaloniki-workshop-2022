@@ -1,4 +1,4 @@
-# techsaloniki-workshop-2021
+# techsaloniki-workshop-2022
 
 ## an introduction to docker and kubernetes hands-on
 
