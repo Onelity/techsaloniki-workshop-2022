@@ -1,6 +1,6 @@
 # techsaloniki-workshop-2022
 
-## an introduction to docker and kubernetes hands-on
+## an introduction to docker and kubernetes: what is this cloud native world?
 
 In the past most companies used to develop big monolithic applications. Just in the last 10 years, an era of cloud computing and highly available microservices started to gain momentum. Container technology and Kubernetes made possible the rapid deployment and scaling of such applications. But what is this “Cloud native“ world? In this workshop we will make a short introduction to Docker containers and Container orchestration both in theory and in practice. We will containerize a simple Spring Boot application, deploy it to a Kubernetes cluster and see some of the amazing benefits of the Cloud, like self-healing applications, easy deployments, updates with zero downtime and super easy scale up/down activities.
 
